@@ -1,0 +1,35 @@
+# Virtual Environment
+env/
+venv/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Heavy Models & Local Cache (Do not push weights to GitHub)
+models/
+*.onnx
+*.safetensors
+*.bin
+*.pt
+
+# Uploads & Extracted Temp Frames
+uploads/
+extracted_frames/
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.mkv
+*.wav
+*.ogg
+*.m4a
+
+# IDE & Config
+.vscode/
+.claude/
+.idea/
